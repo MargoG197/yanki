@@ -1,0 +1,91 @@
+.header{
+    margin: 33px 0 0 150px;
+    display: flex;
+    align-items: center;
+
+    width: auto;   
+  }
+
+  li {
+      list-style: none;
+  }
+  
+.header *{
+    z-index: 2;
+    color: white;
+    height: 40px;
+    align-items: center;
+    padding: 0;
+    display: flex;    
+    justify-content: space-between;
+    padding: none;
+    
+    }
+/* .menu{
+    
+} */
+.menuMainPage{
+    margin-left: 76px;
+    width: 240px;   
+}
+.menuMainPage *{
+    margin-left: 20px;
+    width: 80px;
+}
+
+.logo{
+    margin-left: 120px;
+}
+.lang{
+    margin-left: 93px;
+    width: 130px; 
+}
+.options{
+    margin-right: 9px; 
+}
+
+.icons{
+    margin-left: 75px;
+    width: 250px;
+}
+
+.icons *{
+margin-left: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -500px;
+    color: white;
+    margin-left: 533px;
+    position: absolute;
+    align-content: baseline;
+    
+}
+
+.main *{
+    align-items: center;
+    height: auto;
+    font-weight: 300;
+}
+.main > h3 > .options{
+    align-self: baseline;
+    align-content: baseline;   
+    margin-bottom: -5px;
+}
+
+.firstPage{
+    display: flex;
+    width:fit-content;
+    height: 900px;
+    margin-top: -105px;
+    z-index: -3;
+    margin-left: -8px;
+    }
+.firstPage.image{
+    width: auto;
+    height: 900px;
+    z-index: -3;
+}
