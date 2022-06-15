@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(/Yanki/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+html{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
 .header{
     margin: 33px 0 0 150px;
     display: flex;
@@ -58,7 +69,7 @@ margin-left: 30px;
     align-items: center;
     margin-top: -500px;
     color: white;
-    margin-left: 533px;
+    margin-left: 570px;
     position: absolute;
     align-content: baseline;
     
@@ -89,8 +100,9 @@ margin-left: 30px;
     height: 900px;
     z-index: -3;
 }
+
 .secondPage{
-    height: 1112px;
+    height: 1000px;
     margin-left: 0;
 }
 
@@ -123,6 +135,7 @@ margin-left: 30px;
     padding: 5px;
     backdrop-filter: blur(6px);
 }
+
 .emailSignUp{
     display: flex;
     flex-direction: column;
@@ -130,6 +143,7 @@ margin-left: 30px;
     height: 270px;
     margin-top: 100px;
 }
+
 .emailSignUp *{
     text-align: center;
 }
@@ -150,8 +164,44 @@ margin-left: 30px;
     border: none;
     margin-top: 20px;
 }
+
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: auto;
+    margin-left: 150px;
+   
+}
+.margin{
+    margin-bottom: 50px;
+}
+.socialMediaLinks{
+    display: flex;
+    width: 46px;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.rights{
+    display: inline-block;
+    position:absolute;
+    align-self:flex-end;
+    margin-left: 500px;
+}
+
+.button{
+    transition: box-shadow .3s;
+}
+
+.button:hover{
+box-shadow: 0 0 11px rgba(33,33,33,.2);
+cursor: pointer;
+}
+
+.button:active{
+    background-color: #CCA88A;
 }
